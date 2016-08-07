@@ -6,7 +6,6 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                dsffg
                 <Header />
                 {this.props.children}
             </div>
