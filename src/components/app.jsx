@@ -1,12 +1,13 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import UserList from './user_list';
+import React, {Component} from "react";
+import {connect} from "react-redux";
+import Header from './header';
 
 export default class App extends Component {
     render() {
         return (
             <div>
-                <UserList />
+                dsffg
+                <Header />
                 {this.props.children}
             </div>
         );
