@@ -1,13 +1,7 @@
-.user-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.error {
+    color: #f00;
 }
 
-.card {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    width: 30px;
-    min-width: 300px;
+button:disabled {
+    opacity: 0.1;
 }
